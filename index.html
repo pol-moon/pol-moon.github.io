@@ -59,7 +59,7 @@
         <style type="text/css">
                 body {
                         background-color: rgb(1,95,71);
-                        color: #13316f;
+                        color: #ffffff;
                         font-size: 16px;
                         line-height: 21px;
                         font-weight: 400;
@@ -77,7 +77,7 @@
                 }
 
                 .dataItem {
-                        color: #ea690b;
+                        color: #ffffff;
                         font-weight: bold
                 }
 
@@ -92,13 +92,13 @@
                         font-size: 24pt;
                         font-weight: bolder;
                         text-transform: uppercase;
-                        color: black
+                        color: white
                 }
 
                 h2 {
                         font-size: 20pt;
                         font-weight: bolder;
-                        color: black
+                        color: white
                 }
 
                 h3 {
@@ -279,7 +279,7 @@
 
         .blink {
             animation: blinker 1.5s linear infinite;
-            color: red;
+            color: white;
             font-size: 1em;
             /* Larger, responsive font size */
             margin-bottom: 10px;
@@ -316,9 +316,9 @@
         <div
                 style="padding-top: 0px; background-color: rgb(2,105,62); border-bottom-color: rgba(133, 133, 133, 0.1); border-bottom-width: 1px; border-bottom-style: solid; margin-bottom: 5px; position: fixed; width: 100%; z-index: 9999; padding-top: 5px; border-bottom: 5px solid rgba(28, 5, 3, 0.345);">
                 <button type="button" class="button hide" data-toggle="offCanvas">Game Menu</button>&nbsp; <a
-                        href="https://PolMoon.Com/"><img src="images/logo.png" width="200" border="0" /></a>&nbsp;&nbsp;<button
+                        href="https://pol-moon.github.io/"><img src="images/logo.png" width="200" border="0" /></a>&nbsp;&nbsp;<button
                         type="button" class="small button" style="float: right;" id="btn-connect"> Connect wallet
-                </button><span id="connectedAddress" style="float: right; font-size: 12pt; color: #ea690b"></span><br />
+                </button><span id="connectedAddress" style="float: right; font-size: 12pt; color: #ffffff"></span><br />
         </div>
         <div class="off-canvas-content" data-off-canvas-content>
                 <div style="position: absolute; left: 0px; top: 60px;">
@@ -372,18 +372,7 @@
                                         Dividends Available: <span id="newDivs" class="dataItem"></span>&nbsp; <button
                                                 type="button" class="primary button tiny hide"
                                                 id="withdrawBtn">Withdraw</button><br /><br />
-                                        <div style="text-align: center;">
-                <div style="border: 5px solid blue; padding: 10px; display: inline-block; border-radius: 5px;">
-<h2 style="color: #fff301>
-<a href="https://polygonscan.com/address/0x319d2997d8cf3E9d0f53F8ee2f2Fc5b07ba4cceD">Dividends Balance</a>
-    </h2>
-    <div style="border: 2px solid blue; padding: 10px; display: inline-block; border-radius: 5px;">
-        <h1 class="title-main blue" style="margin: 0; text-align: center;">
-            <span id="matic-balance" style="color: black; font-weight: bold; font-size: 1em;">Loading...</span>
-        </h1>
-    </div>
-        <p class="blink">Higher Levels Higher Dividends<br>Upgrade Your Higher Levels<br>Never Miss Life Time Income</p>
-</div></div><br><br>
+                                        
                                         
                                         
                                         
@@ -1562,9 +1551,18 @@
                         <div class="cell small-12 medium-12 large-6 infoPanel">
                                 <center>
                                         <h2>Pol Moon Players Online</h2>
-                                        <script type="text/javascript"
-                                                src="https://rf.revolvermaps.com/0/0/7.js?i=5jy55p2i70j&m=0&c=ff0000&cr1=ffffff&sx=0"
-                                                async="async"></script> <br /><br /> Pol Moon active: <span
+                                        <div style="text-align: center;">
+                <div style="border: 5px solid white; padding: 10px; display: inline-block; border-radius: 5px;">
+<h2>
+<a href="https://polygonscan.com">Dividends Balance</a>
+    </h2>
+    <div style="border: 2px solid blue; padding: 10px; display: inline-block; border-radius: 5px;">
+        <h1 class="title-main blue" style="margin: 0; text-align: center;">
+            <span id="matic-balance" style="color: black; font-weight: bold; font-size: 1em;">Loading...</span>
+        </h1>
+    </div>
+        <p class="blink">Higher Levels Higher Dividends<br>Upgrade Your Higher Levels<br>Never Miss Life Time Income</p>
+</div></div><br> Pol Moon active: <span
                                                 class="red" id="activeDays">-</span>&nbsp;&nbsp;<div id="statsPanel1"
                                                 class="hide"> Total Players: <span class="red"
                                                         id="totalPlayers">-</span><br /></div> <span
